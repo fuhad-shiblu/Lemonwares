@@ -22,3 +22,8 @@ fuhadShiblu_getSelector.addEventListener('click' , (e)=>{
         fuhadShiblu_disPrice.style  = 'display:none'
     }
 })
+
+document.addEventListener('contextmenu' , (e)=>{
+    e.preventDefault()
+    location.reload()
+})
