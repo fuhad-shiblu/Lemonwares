@@ -273,12 +273,16 @@ nav{
     color: #000;
     font-weight: 400;
 }
+.fuhadShiblugetMonthly{
+    color: #B00000 !important;
+}
 .fuhadShiblu_getSelector{
     width: 93px;
     height: 50px;
     background: #B00000;
     border-radius: 73px;
     position: relative;
+    cursor: pointer;
 }
 .fuhadShiblu_getCircle{
     position: relative;
@@ -298,6 +302,7 @@ nav{
     background: #FFE87A;
     padding: 7px 8px;
     border-radius: 8px;
+    display: none;
 }
 .fuhadShiblu_getType{
     margin-top: 71px;
@@ -461,4 +466,132 @@ nav{
     font-size: 14px;
     font-family: var(--inter);
     font-weight: 500;
+}
+.fuhadShiblu_QuoteServe h1{
+    width: 445px;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: var(--inter);
+    color: #18191F;
+    margin: 105px 0 8px;
+}
+.fuhadShiblu_QuoteServe p{
+    width: 445px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--inter);
+    color: #18191F;
+}
+.fuhadShiblu_quoteServeImg img{
+    margin-top: 84px;
+    width: 120px;
+    height: 120px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_quoteServeImg img:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_quoteServeImg{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 65px;
+    justify-content: center;
+}
+
+/* ===== Get in touch CSS Part ===== */
+#fuhadShiblu_getInTouchMain{
+    width: 100%;
+    height: 432px;
+    background: url(/assets/img/CTABanner.png);
+    margin-top: 106px;
+    border-radius: 16px;
+}
+.fuhadShiblu_geiInTxtArea h2{
+    text-align: center;
+    margin: 80px auto 40px;
+    width: 1024px;
+    font-size: 64px;
+    font-family: var(--poppins);
+    font-weight: 600;
+    color: #2E2E2E;
+}
+.fuhadShiblu_getInLink{
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+.fuhadShiblu_getInLink a{
+    padding: 12px 16px;
+    font-size: 14px;
+    font-family: var(--poppins);
+    color: #fff;
+    font-weight: 400;
+    background: #B00000;
+    border-radius: 8px;
+    border: 1px solid #B00000;
+    transition: all linear .1s;
+}
+.fuhadShiblu_getInLink a:hover{
+    color: #B00000;
+    background: transparent;
+}
+
+/* ===== Footer CSS Part ===== */
+footer{
+    width: 100%;
+    background: #B00000;
+    margin-top: 110px;
+}
+.fuhadShiblu_footerLogo img{
+    margin-top: 64px;
+    width: 120px;
+    height: 80px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_footerLogo img:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_footerLogo p{
+    width: 296px;
+    margin: 16px 0 104px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--inter);
+    color: #E6E6E6;
+}
+.fuhadShiblu_footerLinks h3{
+    margin-top: 80px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--inter);
+    color: #fff;
+}
+.fuhadShiblu_footerItemsLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+}
+.fuhadShiblu_footerItemsLinks a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--inter);
+    color: #E6E6E6;
+}
+.fuhadShiblu_footerItemsLinks a:hover{
+    text-decoration: underline;
+}
+.fuhadShiblu_footerBuiltCredit{
+    font-size: 16px;
+    font-family: var(--inter);
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 80px;
+}
+.fuhadShiblu_footerBuiltCredit a{
+    color: #fff;
+    font-weight: 900;
+}
+.fuhadShiblu_footerBuiltCredit a:hover{
+    text-decoration: underline;
 }
